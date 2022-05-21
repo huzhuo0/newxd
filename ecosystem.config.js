@@ -46,7 +46,7 @@ module.exports = {
     production:{
       user : 'root',/* 服务器上的user名,我们服务器上的登录名是root */
       host : '192.168.21.128',/* 服务器的ip地址 */
-      ref  : 'origin/master', /* git上的分支，我们自动化部署其实就是我们输入命令之后我们
+      ref  : 'origin/main', /* git上的分支，我们自动化部署其实就是我们输入命令之后我们
                                 会远程拉取git上的仓库到我们的服务器上，把clone下来，然后又会自动的去帮我们安装依赖，
                                 然后去启动我们的pm2去部署我们的项目 */
       repo : 'https://github.com/huzhuo0/newxd.git',/* git上项目ssh地址  git@github.com:xd-eric/myblog.git */
